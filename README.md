@@ -10,15 +10,18 @@ This is a sample cloud infrastructure in AWS for the BCI Company done in Terrafo
 
 1) Set the AWS credentials in the deployment machine.
 2) Init the Terraform modules:
-```terraform init
+```sh
+$ terraform init
 ```
 
 2) Plan the Terraform execution:
-```terraform plan
+```sh
+$ terraform plan
 ```
 
 3) Apply the Terraform planned changes:
-```terraform apply --auto-aprove
+```sh
+$ terraform apply --auto-aprove
 ```
 
 ## Author
